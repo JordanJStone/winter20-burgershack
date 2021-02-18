@@ -1,4 +1,4 @@
-USE goodburger;
+USE burgershack18;
 
 -- CREATE TABLE burgers
 -- (
@@ -16,11 +16,11 @@ USE goodburger;
 -- INSERT INTO burgers
 -- (name, description, price)
 -- VALUES
--- ("Santa Burger", "Its from very fatty", 201.21);
+-- ("Hawaiian", "Pineapple", 201.21);
 
 
 /* Find All of Collection */
-/* SELECT * FROM burgers; */
+-- SELECT * FROM burgers;
 
 
 /* Find by Value from Collection */

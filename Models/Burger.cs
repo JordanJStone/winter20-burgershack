@@ -14,6 +14,7 @@ namespace burgershack_winter20.Models
     public string Description { get; set; }
 
 
+    // The empty constructor is usually not needed, but Dapper makes it required 
     public Burger()
     {
 
