@@ -1,10 +1,10 @@
 USE burgershack18;
 
--- CREATE TABLE burgers
+-- CREATE TABLE sides
 -- (
 --   id INT AUTO_INCREMENT,
 --   name VARCHAR(255) NOT NULL UNIQUE,
---   description VARCHAR(255),
+--   -- description VARCHAR(255),
 --   price DECIMAL(6 , 2) NOT NULL,
 
 --   PRIMARY KEY (id)
@@ -13,18 +13,18 @@ USE burgershack18;
 -- DECIMAL( NUMS , NUMSPASTDEC)
 
 -- CREATE
--- INSERT INTO burgers
--- (name, description, price)
+-- INSERT INTO sides
+-- (name, price)
 -- VALUES
--- ("Hawaiian", "Pineapple", 201.21);
+-- ("Calamari", 5.50);
 
 
 /* Find All of Collection */
--- SELECT * FROM burgers;
+-- SELECT * FROM sides;
 
 
 /* Find by Value from Collection */
-/* SELECT * FROM burgers WHERE name="bingo" OR age=6; */
+-- SELECT * FROM sides WHERE name="Fries" OR price=5.5;
 
 
 

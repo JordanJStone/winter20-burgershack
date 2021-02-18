@@ -15,6 +15,8 @@ using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
 using Microsoft.OpenApi.Models;
 using MySqlConnector;
+using winter20_burgershack.Repositories;
+using winter20_burgershack.Services;
 
 namespace burgershack_winter20
 {
@@ -45,6 +47,9 @@ namespace burgershack_winter20
 
       services.AddTransient<BurgerRepository>();
 
+      services.AddTransient<SidesService>();
+
+      services.AddTransient<SidesRepository>();
 
     }
 
